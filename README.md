@@ -1,5 +1,5 @@
 
-## Group 3  team
+## Group 3 [ React | blog website ]
 
  - [Eslam Eldeep](https://github.com/eslameldeep)
  - [Yassmien Abdelmeniem](https://github.com/YassmienAbdelmeniem)
@@ -10,14 +10,6 @@
 
 
 ## Required tasks
-
- - [Eslam Eldeep](https://github.com/eslameldeep)
- - [Yassmien Abdelmeniem](https://github.com/YassmienAbdelmeniem)
- - Merna Hesham 
- - yousef elsayed
- - [IbrahimTagwifa](https://github.com/IbrahimTagwifa)
- 
-
  
 ## User stories
 
