@@ -37,4 +37,5 @@ it is up to you, but extra points for well designed blog and readable code
 
 - As an author I want to go to `/authors/<authorId>` page and click a button to view post create page with a form to create a post
 
+[Click too start video ](https://www.youtube.com/watch?v=peL3Vt_vM90)
 [![youtube video](https://img.youtube.com/vi/peL3Vt_vM90/0.jpg)](https://www.youtube.com/watch?v=peL3Vt_vM90)
