@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../317754_blog_blogger_blogging_icon.svg';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Nav, Navbar } from 'react-bootstrap';
+import { Nav, Navbar , Container} from 'react-bootstrap';
 
 import { Link } from "react-router-dom";
 
@@ -10,6 +10,7 @@ export function Layout({ children }) {
     return (
         <div className="App">
             <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect >
+            <Container>
                 <Navbar.Brand>
                     <img src={logo} width="35px" height="35px" /> {' '}
                     Blog
@@ -22,6 +23,7 @@ export function Layout({ children }) {
 
                     </Nav>
                 </Navbar.Collapse>
+                </Container>
 
             </Navbar>
 

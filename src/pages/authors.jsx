@@ -8,15 +8,14 @@ export default function Authors() {
 
     return (
         <Layout>
-            <div>
+            <Container>
+
                 <h1>Hello</h1>
                 <p>The list of authers</p>
-                <Container>
                     <Row>
                         {authors.map((author) => <AuthorsComp key={author.id} author={author} />)}
                     </Row>
                 </Container>
-            </div>
         </Layout>
     );
 }
