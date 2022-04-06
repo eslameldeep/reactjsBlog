@@ -8,6 +8,8 @@ import Author from './pages/author';
 import CreatePost from './pages/CreatePost';
 import About from './pages/about';
 import ShowPost from './pages/ShowPost';
+import { ReducerEx } from './components/useReducerEx';
+
 const root = createRoot( document.getElementById('root'));
 root.render(
   <BrowserRouter>
@@ -17,6 +19,7 @@ root.render(
       <Route path="/create/post/auth/:authId" element={<CreatePost />} />
       <Route path="/posts/:postId" element={<ShowPost />} />
       <Route path="/about" element={<About />} />
+      <Route path="/reducer" element={<ReducerEx />} />
     </Routes>
   </BrowserRouter>
 );

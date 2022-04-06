@@ -17,7 +17,7 @@ export function useCreatePost(_data) {
           })
             .then((response) => response.json())
             .then((json) => setPostData(json));
-    }, []);
+    }, [_data]);
 
     return  PostData ;
 }
