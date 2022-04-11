@@ -24,7 +24,6 @@ export function useGetCommentsById(id) {
     useEffect(() => {
         fetch(commentsUrl(id))
             .then((response) => response.json())
-            // .then(Posts => { return Posts.filter(post=> { return (post.userId == id) }) } )
             .then((json) => setComment(json));
     }, []);
 
