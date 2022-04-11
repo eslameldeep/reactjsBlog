@@ -21,7 +21,7 @@ export default function ShowPost() {
                 <Container>
                     <h2>Comments</h2>
                     <Row>
-                        {comments.map((comment) => <CommentComp key={post.id} comment={post} />)}
+                        {comments.map((comment) => <CommentComp key={comment.id} comment={comment} />)}
                     </Row>
                 </Container>
             </div>

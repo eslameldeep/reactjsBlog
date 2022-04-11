@@ -5,7 +5,7 @@ import { Container, Row } from 'react-bootstrap';
 import { Layout } from "../components/layout"
 export default function Authors() {
     const authors = useAuthors();
-
+        
     return (
         <Layout>
             <Container>
@@ -13,7 +13,7 @@ export default function Authors() {
                 <h1>Hello</h1>
                 <p>The list of authers</p>
                     <Row>
-                        {authors.map((author) => <AuthorsComp key={author.id} author={author} />)}
+                        {authors.map((author)=> <AuthorsComp key={author.id} author={author} />)}
                     </Row>
                 </Container>
         </Layout>

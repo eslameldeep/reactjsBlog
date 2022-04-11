@@ -21,6 +21,7 @@ export default function Author() {
                     <hr />
                     <Link to={"/create/post/auth/" + Auth.id}><Button variant="dark"> <FontAwesomeIcon icon={faPlus} /> Create Article</Button></Link>
                     <hr />
+                    
                 </Container>
                 <Container>
                     <h2>Articles</h2>
